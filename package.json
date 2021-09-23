@@ -1,0 +1,19 @@
+{
+  "name": "mylibrary",
+  "version": "1.0.0",
+  "description": "node application for library management",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udhayaas97/MyLibrary-BackEnd.git"
+  },
+  "author": "Udhayakumar C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udhayaas97/MyLibrary-BackEnd/issues"
+  },
+  "homepage": "https://github.com/udhayaas97/MyLibrary-BackEnd#readme"
+}
