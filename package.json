@@ -2,9 +2,10 @@
   "name": "mylibrary",
   "version": "1.0.0",
   "description": "node application for library management",
-  "main": "server.js",
+  "main": "./src/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts "
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/udhayaas97/MyLibrary-BackEnd/issues"
   },
-  "homepage": "https://github.com/udhayaas97/MyLibrary-BackEnd#readme"
+  "homepage": "https://github.com/udhayaas97/MyLibrary-BackEnd#readme",
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "nodemon": "^2.0.12",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "fastify": "^3.24.1"
+  }
 }
