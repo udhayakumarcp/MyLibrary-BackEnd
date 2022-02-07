@@ -1,6 +1,6 @@
-import Fastify from "fastify";
+import fastify from "fastify";
 
-const server = Fastify({
+const server = fastify({
   logger: true,
 });
 const port = 3000;
