@@ -1,12 +1,13 @@
-import fastify from 'fastify';
+import fastify from "fastify";
 
-const server = fastify();
+const server = fastify({
+  logger: true,
+});
 const port = 3000;
 
-server.listen(port, (err, address) => {
+server.listen(port, (err) => {
   if (err) {
     console.error(err);
     process.exit(1);
   }
-  console.log(`Server listening at ${address}`);
 });
